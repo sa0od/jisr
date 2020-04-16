@@ -1,205 +1,187 @@
 *{
-    margin: 0%;
-    padding: 0%;
-    text-decoration: none;
-    list-style: none;
-    font-family: "Poppins",Helvetica, sans-serif;
-    text-transform: capitalize;
-    box-sizing: border-box;
-    
-
-}
-body{
-    /* direction: rtl; */
+  margin: 0%;
+  padding: 0%;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Poppins",Helvetica, sans-serif;
+  text-transform: capitalize;
+  box-sizing: border-box;
 }
 p,a{
-    color: #1c4375;;
+  color: #1c4375;;
 }
 
 .all{
-    display: flex;
- 
+  display: flex;
 }
+
 header{
-    /* position: fixed; */
-    background:#fff;
-    height: 100vh;
-    width: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+  /* position: fixed; */
+  background:#fff;
+  height: 100vh;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 header .user img{
-    
-    background: rgb(16, 124, 196);
-    border-radius: 50px;
-    width: 70px;
-    height: 75px;
-   margin: 0px 10px;
+  background: rgb(16, 124, 196);
+  border-radius: 50px;
+  width: 70px;
+  height: 75px;
+  margin: 0px 10px;
 }
 header nav{
-    display: flex;
+  display: flex;
 }
 header nav ul li{
-    padding: 5px 0;
+  padding: 5px 0;
 }
 header nav ul i{
-    padding: 5px 10px; 
+  padding: 5px 10px; 
 }
 header .logo img{
-    width: 70px;
-    margin: 0px 10px;
+  width: 70px;
+  margin: 0px 10px;
 }
+
 /* --------------------------------END HEADER------------------------------- */
 .sidbar{
-    width: 100%;
-    background: rgb(221, 221, 221);
-    /* position: absolut */
+  width: 100%;
+  background: rgb(221, 221, 221);
+  /* position: absolut */
 }
 .sidbar .first{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: #fff;
-    padding: 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding: 10px 10px;
 }
 .sidbar .first .button button, .sidbar .date .aa .image button , .note-container button{
-    padding: 5px;
-    min-width: 200px;
-    color: #0371ff;
-    font-size: 16px;
-    border: 1px solid #0371ff;
-    border-radius: 50px;
-    background: #fff;
+  padding: 5px;
+  min-width: 200px;
+  color: #0371ff;
+  font-size: 16px;
+  border: 1px solid #0371ff;
+  border-radius: 50px;
+  background: #fff;
 }
 .sidbar .first  .info{
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 .sidbar .first .info .user-info{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0 10px;
 }
 .sidbar .first .info .user-image{
-
-    background: #333;
-    border-radius: 50%;
-
-    height: 50px;;
-    
+  background: #333;
+  border-radius: 50%;
+  height: 50px;
 }
 .sidbar .first .info .user-image img{
-    width: 45px;
-    height: 50px;;
+  width: 45px;
+  height: 50px;;
 }
 
 /* ------------------------------------------ */
 
 .sidbar .date{
-    display: flex;
-    justify-content: space-evenly;
-    margin: 20px 0;
- 
-    /* align-items: center; */
-   
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px 0;
+  /* align-items: center; */
 }
 .sidbar .date .aa{
-    display: flex;
-    flex-direction: column;
-  
+  display: flex;
+  flex-direction: column;
 }
 .sidbar .date .aa .image{
-    background: #fff;
-
-    /* padding: 20px 0; */
-    height: 500px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-   /* border-bottom-left-radius: 5px;
-   border-bottom-right-radius: 5px; */
- 
-    
+  background: #fff;
+  /* padding: 20px 0; */
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px; */
 }
+
 .sidbar .date .aa .image .image-content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
- 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .sidbar .date .aa .image .image-content button{
-    background: #0371ff;
-    color: #fff;
-    margin: 20px 0;
+  background: #0371ff;
+  color: #fff;
+  margin: 20px 0;
 }
+
 .sidbar .date .aa .image .image-content p{
     width: 70%;
     text-align: center;
 }
 .sidbar .date .list{
-    display: flex;
+  display: flex;
   justify-content: flex-start;
   /* border-radius: 5px; */
   background: #fff;
   /* border-top-left-radius: 5px;
   border-top-right-radius: 5px; */
   height: 130px;;
-  
   /* margin: 20px 20px; */
-  
- 
-  
 }
+
 .sidbar .date .list .list-date{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    flex-grow: 1;
-    padding: 10px 20px;
-   
-    /* margin: auto; */
-    border: 1px solid #0371ff;
-    /* border-top-left-radius: 5px;
-    border-top-right-radius: 5px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-grow: 1;
+  padding: 10px 20px;
+  /* margin: auto; */
+  border: 1px solid #0371ff;
+  /* border-top-left-radius: 5px;
+  border-top-right-radius: 5px; */
 }
+
 .sidbar .date .list .list-date h2{
-    color: #333;
-    font-weight: 500;
+  color: #333;
+  font-weight: 500;
 }
 .sidbar .date .note{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
 .sidbar .date .note {
-   
-    width: 20%;
-    /* height: 250px; */
-
+  width: 20%;
+  /* height: 250px; */
 }
 .sidbar .date .note .note-container{
-    /* margin-bottom: 50px; */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    /* align-items: center; */
-    align-items:flex-start;
-    background: #fff;
-    height: 300px;
-    padding: 0px 20px;
-    border-radius: 5px;
-    margin-bottom: 30px;
-    color: rgb(170, 0, 0);
-
+  /* margin-bottom: 50px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* align-items: center; */
+  align-items:flex-start;
+  background: #fff;
+  height: 300px;
+  padding: 0px 20px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  color: rgb(170, 0, 0);
 }
+
 .sidbar .date .note .note-container[id="second"]{
-    background: #0371ff;
-    color: #fff;
+  background: #0371ff;
+  color: #fff;
 }
 .sidbar .date .note .note-container p[id="second"]{
-    color: #fff;
+  color: #fff;
 }
